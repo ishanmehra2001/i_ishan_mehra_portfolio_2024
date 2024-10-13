@@ -1,0 +1,9 @@
+
+.hero-page{
+  background: url(../videos/hero-page.mp4) no-repeat center center fixed;
+  height: 100vh;
+}
+
+.hide{
+  display: none;
+}
