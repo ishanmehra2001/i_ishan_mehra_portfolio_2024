@@ -23,7 +23,7 @@ body, p, h1, h2, h3, h4, h5 {
   color: rgb(255, 255, 255);
   padding: 10px;
   margin: 5px;
-  border-radius: 10px;
+  
 }
 
 .hidden {
@@ -38,6 +38,10 @@ body, p, h1, h2, h3, h4, h5 {
   display: grid; 
   grid-template-columns: 1fr minmax(0, 1200px) 1fr;  
 }
+
+
+
+/*mobile*/
 
 .grid-con { 
   display: grid;
