@@ -50,9 +50,7 @@ p {
 
 /* hero section starts */
 
-.hero-page{
-  object-fit: cover;
-}
+
 
 .hero-page video{
   position: relative;
