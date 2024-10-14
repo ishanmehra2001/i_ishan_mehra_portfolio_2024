@@ -139,6 +139,25 @@ p {
   margin-left: 80px;
 }
 
+.quote{
+  position: relative;
+  bottom: 720px;
+  left: 430px;
+  width: 50px;
+}
+
+.quote p{
+ position: relative;
+ font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+ rotate: -90deg;
+ font-size: 9px;
+ line-height: 13px;
+ width: 500px;
+ color: #000000;
+ margin: 0;
+ padding: 0;
+}
+
 
   
 
