@@ -1,9 +1,105 @@
+/*main style*/
 
-.hero-page{
-  background: url(../videos/hero-page.mp4) no-repeat center center fixed;
-  height: 100vh;
+html {
+  margin: auto;
+}
+
+li, ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+body {
+  color: black;
+  font-family: 'Roboto', 'Segoe UI';
+}
+
+input, textarea {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  padding-bottom: 15px;
+}
+
+h2, h3, h4, h5, h6 {
+  font-size: 20px;
+  line-height: 20px;
+  color: #CE3B32;
+}
+
+p {
+  font-size: 15px;
+  line-height: 20px;
 }
 
 .hide{
   display: none;
 }
+
+
+
+
+
+
+
+
+/* hero section starts */
+.hero-page video{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+  z-index: -1;
+
+}
+.hero-content{
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+  top: 0;
+}
+
+/*header*/
+
+.logo{
+  margin-left: 0px;
+  margin-top: 15px;
+  height: 40px;
+}
+.hamburger{
+  display: flex;
+  flex-direction: column;
+  width: 40px;
+  margin-top: 15px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.line{
+  margin-top: 7px;
+  height: 3.5px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+
+.contact-btn button{
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+  width: 95px;
+  padding: 5px 10px;
+  color: #ffffff;
+  font-size: 12px;
+  cursor: pointer;
+ 
+  margin-bottom: 15px;
+}
+  
+
