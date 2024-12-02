@@ -119,7 +119,7 @@
 
           <div class="demo-reel col-span-full ">
             <div class="cinefolio">Cinefolio</div>
-          <!-- <video controls preload="metadata" src="videos/demo-reel.mp4" > -->
+         <video controls preload="metadata" src="videos/demo-reel.mp4">
         </video>
         </div>
       </div> 
