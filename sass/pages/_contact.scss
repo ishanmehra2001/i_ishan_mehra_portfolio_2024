@@ -1,0 +1,83 @@
+
+//Contact
+
+body{
+  background-color: black;
+}
+
+
+#contact-section{
+  margin-top: 100px;
+  overflow: hidden;
+}
+
+
+.contact-bck-img{
+  width: 100vw;
+  height: 60vh;
+  margin-top: 150px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  filter: blur(1.5px);
+  object-fit: cover;
+}
+
+.bckgrnd-container{
+  width: 70vw;
+  height: 76vh;
+  margin: 30px 15%;
+  background-color: rgb(62, 62, 62, 0.8);
+  border-radius: 20px;
+}
+
+h1{
+  color: white;
+  font-size: 50px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  -webkit-text-stroke: 1px #ffffff; 
+  -webkit-text-fill-color: transparent;
+  justify-content: center;
+  display: flex;
+}
+
+#fname, #lname, #email, #message, #send{
+  border-radius: 20px;
+  background-color: rgba(184, 184, 184, 0.5);
+  color: white;
+  margin-left: 10px;
+  margin-top: 5px;
+  font-size: 16px;
+  border: none;
+  padding: 5px;
+  
+}
+
+label{
+  color: white;
+  margin-left: 13px;
+  font-size: 16px; 
+}
+
+#send{
+  width: 100px;
+  height: 30px;
+  border: none;
+}
+
+#send:hover{
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px  #fff;
+  transition: all .15s ease-in-out;
+}
+
+
+
+
+
+
+

@@ -1,18 +1,27 @@
+
+
 <html>
 <head>
+<link href="css/grid.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
 </head>
 
-<body>
-<section>
-<form method="post" action="send_mail.php">
 
-    <label for="first_name">First Name: </label>
-    <input type="text" name="first_name" id="first_name"> 
+<body>
+<section id="contact-section">
+    <img class="contact-bck-img" src="images/contact-bck.png">
+<div class="bckgrnd-container">
+<h1 class="contact-title">CONTACT</h1>
+<form method="post" action="send_mail.php">
+    
+<label for="fname">First Name: </label>
+    <input type="text" name="fname" id="fname"> 
 
 <br><br>
 
-    <label for="last_name">Last Name: </label>
-    <input type="text" name="last_name" id="last_name">
+    <label for="lname">Last Name: </label>
+    <input type="text" name="lname" id="lname">
+
 
     <br><br>
 
@@ -26,12 +35,15 @@
 
     <br><br>
 
-    <input type="submit" value="send">
+
+    <input id="send" type="submit" value="send">
 </form>
+</div>
 </section>
-<footer>
 
 
-</footer>
 </body>
 </html>
+
+
+
