@@ -19,7 +19,7 @@ $query ='SELECT * FROM `project-info`, projects WHERE project_id = projects.id A
 //run query to get back the content
 $results = mysqli_query($connect,$query);
 
-$row = mysqli_fetch_assoc($results);
+
 
 ?>
 
