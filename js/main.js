@@ -152,7 +152,7 @@ gsap.from("#testimonials h3", 0.6,
       scrollTrigger: {
           trigger:"#testimonials", 
           toggleActions: "play none reverse none",//onEnter, onLeave, onEnterBack, onLeaveBack.
-          markers: true, 
+          markers: false, 
           start: "-3% 50%", //animation box starts, scroller start
           end: "-3% 50%", //animation box ends, scroller end
       },
@@ -167,7 +167,7 @@ gsap.from(".testi-p", 0.6,
       scrollTrigger: {
           trigger:"#testimonials", 
           toggleActions: "play none reverse none",//onEnter, onLeave, onEnterBack, onLeaveBack.
-          markers: true, 
+          markers: false, 
           start: "1% 50%", //animation box starts, scroller start
           end: "1% 50%", //animation box ends, scroller end
       },
@@ -182,7 +182,7 @@ gsap.from(".testi-profile", 0.6,
       scrollTrigger: {
           trigger:"#testimonials", 
           toggleActions: "play none reverse none",//onEnter, onLeave, onEnterBack, onLeaveBack.
-          markers: true, 
+          markers: false, 
           start: "5% 50%", //animation box starts, scroller start
           end: "5% 50%", //animation box ends, scroller end
       },
@@ -196,7 +196,7 @@ gsap.from(".feedback", 0.6,
       scrollTrigger: {
           trigger:"#testimonials", 
           toggleActions: "play none reverse none",//onEnter, onLeave, onEnterBack, onLeaveBack.
-          markers: true, 
+          markers: false, 
           start: "5% 50%", //animation box starts, scroller start
           end: "5% 50%", //animation box ends, scroller end
       },
