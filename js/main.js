@@ -145,6 +145,67 @@ gsap.from(".achieve-container", 0.6,
   }
 )
 
+
+
+gsap.from("#testimonials h3", 0.6,
+  {
+      scrollTrigger: {
+          trigger:"#testimonials", 
+          toggleActions: "play none reverse none",//onEnter, onLeave, onEnterBack, onLeaveBack.
+          markers: true, 
+          start: "-3% 50%", //animation box starts, scroller start
+          end: "-3% 50%", //animation box ends, scroller end
+      },
+      opacity: 0,
+      y:50,
+     
+  }
+)
+
+gsap.from(".testi-p", 0.6,
+  {
+      scrollTrigger: {
+          trigger:"#testimonials", 
+          toggleActions: "play none reverse none",//onEnter, onLeave, onEnterBack, onLeaveBack.
+          markers: true, 
+          start: "1% 50%", //animation box starts, scroller start
+          end: "1% 50%", //animation box ends, scroller end
+      },
+      opacity: 0,
+      y:50,
+     
+  }
+)
+
+gsap.from(".testi-profile", 0.6,
+  {
+      scrollTrigger: {
+          trigger:"#testimonials", 
+          toggleActions: "play none reverse none",//onEnter, onLeave, onEnterBack, onLeaveBack.
+          markers: true, 
+          start: "5% 50%", //animation box starts, scroller start
+          end: "5% 50%", //animation box ends, scroller end
+      },
+      opacity: 0,
+      y:50,
+     
+  }
+)
+gsap.from(".feedback", 0.6,
+  {
+      scrollTrigger: {
+          trigger:"#testimonials", 
+          toggleActions: "play none reverse none",//onEnter, onLeave, onEnterBack, onLeaveBack.
+          markers: true, 
+          start: "5% 50%", //animation box starts, scroller start
+          end: "5% 50%", //animation box ends, scroller end
+      },
+      opacity: 0,
+      y:50,
+     
+  }
+)
+
 })();
 
 

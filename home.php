@@ -110,7 +110,7 @@
       <div class="about grid-con">
         
       
-        <img id="my-photo" class="col-span-full m-col-start-1 m-col-end-6 " src="images/my-photo-container.svg" alt="my-photo">
+        <img id="my-photo" class="col-span-full m-col-start-1 m-col-end-6 " src="images/xd-profile3.svg" alt="my-photo">
         <!-- <img class="display-img" src="images/profile.png" alt="profile-img"> -->
        
 
@@ -262,7 +262,7 @@
             <div class="profile-img ">
               <!--image-->
             </div>
-            <p>MR. RAHUL CHAUHAN</p>
+            <p>MR. RAHUL CHAUHAN (ABC org.)</p>
           </div>
           <div class="feedback col-start-2 col-end-5">
             <p>"I had the pleasure of collaborating with Ishan Mehra on several projects, and his coding skills are exceptional. He consistently write clean, efficient code and tackle complex challenges with ease. A natural problem solver and a quick learner,he is a valuable asset to any development team."</p>
@@ -275,7 +275,7 @@
               <div class="profile-img ">
                 <!--image-->
               </div>
-              <p>MR. MARCO DE LUCA</p>
+              <p>MR. MARCO DE LUCA (professor)</p>
             </div>
             <div class="feedback col-start-2 col-end-5">
               <p>"I was blown away by Ishan Mehra's video editing work. They brought creativity and precision to every project, delivering high-quality videos on time. His attention to detail and understanding of pacing, color grading, and transitions made a huge difference in the final product."</p>
@@ -287,7 +287,7 @@
               <div class="profile-img ">
                 <!--image-->
               </div>
-              <p>MR. ROBERT HAAF</p>
+              <p>MR. ROBERT HAAF (professor)</p>
             </div>
             <div class="feedback col-start-2 col-end-5">
               <p>"Working with Ishan Mehra on 3D motion design was a fantastic experience. He has an incredible ability to bring concepts to life with stunning visual effects and seamless animations.He combines technical expertise with artistic vision, resulting in truly impressive work."</p>
