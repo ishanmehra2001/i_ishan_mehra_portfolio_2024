@@ -27,8 +27,7 @@ $results = mysqli_query($connect,$query);
 <head>
 <link href="css/grid.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<script src="https://cdn.tailwindcss.com"></script>
+   
 
 <style>
 

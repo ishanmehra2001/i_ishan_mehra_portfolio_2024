@@ -38,9 +38,6 @@ input, textarea {
 
 
 
-
-
-
 /*LANDING PAGE*/
 
 
@@ -114,6 +111,7 @@ input, textarea {
   cursor: pointer;
   margin-left: 4px; 
   margin-top: 5px;
+  z-index: 100;
 }
 
 .menu-line {
@@ -122,6 +120,7 @@ input, textarea {
     height: 2px;
     border-radius: 10px;
     background-color: white;
+    
   }
 
 .linking-icon img{
@@ -151,7 +150,7 @@ input, textarea {
   width: 350px;
  margin-top: 100px;
   margin-left: 55px;
-  cursor: pointer;
+  
 }
 
 
@@ -171,6 +170,8 @@ input, textarea {
   margin: 0;
   margin-left: -155px; 
 }
+
+
 
 .hero-text p{
   margin-bottom: -12px;
@@ -274,9 +275,7 @@ input, textarea {
 }
 
 .mobile-menu li p{
-
   color: white;
- 
 }
 
 .logo-mob-menu:hover{
@@ -313,12 +312,15 @@ margin-left: 15px;
 margin-top: 20px;
 }
 
+
+
 .about-text{
   color: white;
   font-size: 14px;
   margin-left: 25px;
   margin-right: 25px;
   margin-top: 10px;
+  opacity: 1; ///////////////////
 }
 
 .services{
@@ -375,7 +377,6 @@ margin-top: 20px;
 
 .demo-reel{
   margin: 0 auto;
-  height: 250px;
   width: 412px;
   margin-top: 60px;
   margin-bottom: 30px;
@@ -384,6 +385,8 @@ margin-top: 20px;
   object-fit: cover;
   overflow: hidden;
 }
+
+
 
 .cinefolio{
   position: absolute;
@@ -399,16 +402,20 @@ margin-top: 20px;
   font-weight: bold;
   -webkit-text-stroke: 0.4px #ffffff; 
   -webkit-text-fill-color: transparent; 
+  z-index: 100;
 }
 
-
-
+/*matches with the element of the DOM*/
 :root {
-  --plyr-color-main: rgb(58, 127, 205);
-  --plyr-control-icon-size: 12px;
-  --plyr-control-radius: 10px;
+  --plyr-color-main: rgb(138, 182, 77);
+  --plyr-control-icon-size: 15px;
+  --plyr-control-radius: 20px;
   --plyr-font-family: Helvetica, Arial:
 }
+
+
+
+
 
 /*PROJECTS PAGE*/
 
@@ -955,6 +962,8 @@ margin-top: 190px;
 #my-photo{
   width: 400px;
   }
+
+  
   
   .about-text{
     margin-left: 60px;
@@ -971,8 +980,8 @@ margin-top: 190px;
     margin-top: -50px;
   }
   .demo-reel{
-    height: 310px;
-    width: 530px;
+    
+    width: 580px;
   }
   
   .cinefolio{
@@ -1093,6 +1102,7 @@ left: 6.5%;
   font-size: 12px;
   margin-top: -5px;
   width: 450px;
+  
 }
 
 .testi-profile p{
@@ -1116,7 +1126,7 @@ left: 6.5%;
   color: white;
   font-size: 16px;
   margin-top: -410px;
-  margin-left: 250px;
+  margin-left: 260px;
   margin-right: 20px;
 }
 
@@ -1513,7 +1523,7 @@ left: 18%;
   font-size: 14px;
   margin-top: -520px;
   margin-left: 320px;
-  margin-right: 20px;
+  margin-right: 120px;
 }
 
 

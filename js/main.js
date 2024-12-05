@@ -38,64 +38,119 @@ setInterval(() => {
 })();
 
 
-// //video playeer
-// (() => {
-//   const player = new Plyr('video');
-//   Video.controls = false;
-//   })();
 
-
-
-
-// (() => {
-
-//   gsap.registerPlugin(ScrollTrigger);
-
-
-//   gsap.to("#projects-header h1", 0.6,
-//       {
-//           scrollTrigger: {
-//               trigger:"#projects-page", 
-//               toggleActions: "play none reverse none",//onEnter, onLeave, onEnterBack, onLeaveBack.
-//               markers: false, 
-//               start: "-8% 50%", //animation box starts, scroller start
-//               end: "-6.5% 50%", //animation box ends, scroller end
-//           },
-//           opacity: 1,
-//       }
-//   )
-//   gsap.to("#projects-header p", 0.6,
-//     {
-//         scrollTrigger: {
-//             trigger:"#projects-page", 
-//             toggleActions: "play none reverse none",//onEnter, onLeave, onEnterBack, onLeaveBack.
-//             markers: false, 
-//             start: "-4% 50%", //animation box starts, scroller start
-//             end: "-3.5% 50%", //animation box ends, scroller end
-//         },
-//         opacity: 1,
-//     }
-// )
-
-// gsap.to(".project-1-img", 0.6,
-//   {
-//       scrollTrigger: {
-//           trigger:"#projects-page", 
-//           toggleActions: "play none reverse none",//onEnter, onLeave, onEnterBack, onLeaveBack.
-//           markers: false, 
-//           start: "5% 50%", //animation box starts, scroller start
-//           end: "6% 50%", //animation box ends, scroller end
-//       },
-//       opacity: 1,
-//   }
-// )
-  
-// })();
+(() => {
+  const player = new Plyr('.player');
+  })();
 
 
 
 
 
+(() => {
+
+  gsap.registerPlugin(ScrollTrigger);
+
+
+  gsap.from("#projects-page", 0.6,
+      {
+          scrollTrigger: {
+              trigger:"#projects-page", 
+              toggleActions: "play none reverse none",//onEnter, onLeave, onEnterBack, onLeaveBack.
+              markers: false, 
+              start: "-12% 50%", //animation box starts, scroller start
+              end: "-12% 50%", //animation box ends, scroller end
+          },
+          opacity: 0,
+          y:50,
+         
+      }
+  )
+
+  gsap.from("#projects-header h1", 0.6,
+    {
+        scrollTrigger: {
+            trigger:"#projects-page", 
+            toggleActions: "play none reverse none",//onEnter, onLeave, onEnterBack, onLeaveBack.
+            markers: false, 
+            start: "-10% 50%", //animation box starts, scroller start
+            end: "-10% 50%", //animation box ends, scroller end
+        },
+        opacity: 0,
+        y:50,
+       
+    }
+)
+gsap.from(".subtitle", 0.6,
+  {
+      scrollTrigger: {
+          trigger:"#projects-page", 
+          toggleActions: "play none reverse none",//onEnter, onLeave, onEnterBack, onLeaveBack.
+          markers: false, 
+          start: "-9.5% 50%", //animation box starts, scroller start
+          end: "-9.5% 50%", //animation box ends, scroller end
+      },
+      opacity: 0,
+      y:50,
+     
+  }
+)
+
+
+
+
+
+  gsap.from("#accomplishments h3", 0.6,
+    {
+        scrollTrigger: {
+            trigger:"#accomplishments h3", 
+            toggleActions: "play none reverse none",//onEnter, onLeave, onEnterBack, onLeaveBack.
+            markers: false, 
+            start: "-280% 50%", //animation box starts, scroller start
+            end: "-280% 50%", //animation box ends, scroller end
+        },
+        opacity: 0,
+        y:50,
+       
+    }
+)
+
+gsap.from("#accomplishments p", 0.6,
+  {
+      scrollTrigger: {
+          trigger:"#accomplishments h3", 
+          toggleActions: "play none reverse none",//onEnter, onLeave, onEnterBack, onLeaveBack.
+          markers: false, 
+          start: "-210% 50%", //animation box starts, scroller start
+          end: "-210% 50%", //animation box ends, scroller end
+      },
+      opacity: 0,
+      y:50,
+     
+  }
+)
+
+gsap.from(".achieve-container", 0.6,
+  {
+      scrollTrigger: {
+          trigger:".achieve-container", 
+          toggleActions: "play none reverse none",//onEnter, onLeave, onEnterBack, onLeaveBack.
+          markers: false, 
+          start: "-90% 50%", //animation box starts, scroller start
+          end: "-90% 50%", //animation box ends, scroller end
+      },
+      opacity: 0,
+      y:50,
+     
+  }
+)
+
+})();
+
+
+
+
+(() => {
 //MOON
 // Handles loading the events for <model-viewer>'s slotted progress bar
 const onProgress = (event) => {
@@ -111,6 +166,7 @@ const onProgress = (event) => {
 };
 document.querySelector('model-viewer').addEventListener('progress', onProgress);
 
+})();
 
 
 
@@ -118,5 +174,16 @@ document.querySelector('model-viewer').addEventListener('progress', onProgress);
 
 
 
+(() => {
+  const audio = document.getElementById('background-music');
+  const toggleButton = document.getElementById('toggle-music');
 
-
+  // Function to toggle play/pause on the audio
+  toggleButton.addEventListener('click', () => {
+    if (audio.paused) {
+      audio.play(); // Play the audio if it's paused
+    } else {
+      audio.pause(); // Pause the audio if it's playing
+    }
+  });
+})();
