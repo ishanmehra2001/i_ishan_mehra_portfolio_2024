@@ -52,7 +52,7 @@
             <li><a href="#about-page"><p>ABOUT</p></a></li>
             <li><a href="#projects-page"><p>PROJECTS</p></a></li>
             <li><a href="#logofolio"><p>LOGOFOLIO</p></a></li>
-            <li><a href="#"><p>RESUME</p></a></li>
+            <li><a href="images/ishan-resume.pdf" download="ishan-resume.pdf"><p>RESUME</p></a></li>
             
           </ul>
         </nav>
@@ -68,7 +68,7 @@
         <li><a href="#"><p>HOME</p></a></li>
         <li><a href="#about-page"><p>ABOUT</p></a></li>
         <li><a href="#projects-page"><p>PROJECTS</p></a></li>
-        <li><a href="#"><p>RESUME</p></a></li>
+        <li><a href="images/ishan-resume.pdf" download="ishan-resume.pdf"><p>RESUME</p></a></li>
 
        </menu>
       
@@ -319,8 +319,8 @@
           
           <div class="social-media">
             <a><img src="images/facebook.svg" alt="facebook"></a>
-            <a><img src="images/Instagram-Icon.svg" alt="instagram"></a>
-            <a><img src="images/X-Icon.svg" alt="twitter"></a>
+            <a href="https://www.instagram.com/ishan_mehra2001/"><img src="images/Instagram-Icon.svg" alt="instagram"></a>
+            <a href="https://x.com/mehraishan2001"><img src="images/X-Icon.svg" alt="twitter"></a>
           </div>
         </div>
 
