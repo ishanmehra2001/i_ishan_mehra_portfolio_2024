@@ -241,9 +241,9 @@
       
           <div class="photo-stack move-right">
               
-              <img src=" images/logos/quatro.png" alt="Logo 4 ">
-              <img src="images/logos/kavorka.png" alt="Logo 5">
-              <img src="images/logos/waves.png" alt="Logo 6">
+              <img src=" images/logos/ngo.png" alt="Logo 4 ">
+              <img src="images/logos/mood.png" alt="Logo 5">
+              <img src="images/logos/arka.png" alt="Logo 6">
               
               <!-- Add more photos -->
           </div>
