@@ -259,9 +259,11 @@
             reflecting the trust and satisfaction of those I've helped along the way."</p>
           </div>
           <div class="testi-profile">
-            <div class="profile-img ">
+            
+            <div class="profile-img">
               <!--image--><img src="images/testi1.jpeg">
             </div>
+            
             <p>MS. RIYA MEHRA (developer)</p>
           </div>
           <div class="feedback col-start-2 col-end-5">
