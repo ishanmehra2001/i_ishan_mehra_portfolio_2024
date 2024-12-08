@@ -39,6 +39,8 @@ setInterval(() => {
 
 
 
+
+
 (() => {
   const player = new Plyr('.player');
   })();
@@ -248,3 +250,23 @@ document.querySelector('model-viewer').addEventListener('progress', onProgress);
     }
   });
 })();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

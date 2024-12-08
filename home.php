@@ -122,7 +122,7 @@
             <p>Hi, I'm Ishan Mehra, a web developer with a background in Interactive Media Design from Fanshawe College in London. My studies equipped me with skills in front-end and back-end development, 3D modeling, video editing, and graphic design. With this diverse skill set, I create visually appealing and functional digital solutions that bring ideas to life. I'm passionate about blending design and technology to help businesses thrive online.</p>
             <h2><b>LONDON, ONTARIO</b>
             </h2>
-            <button>Know more about me</button>
+            <a href="about_me.html"><button>Know more about me</button></a>
           </div>
 
           <!-- <div class="demo-reel col-span-full ">
@@ -259,9 +259,8 @@
             reflecting the trust and satisfaction of those I've helped along the way."</p>
           </div>
           <div class="testi-profile">
-            
             <div class="profile-img">
-              <!--image--><img src="images/testi1.jpeg">
+              <!--image-->
             </div>
             
             <p>MS. RIYA MEHRA (developer)</p>
@@ -275,7 +274,7 @@
           
             <div class="testi-profile">
               <div class="profile-img ">
-                <!--image--><img src="images/testi2.jpeg">
+                <!--image-->
               </div>
               <p>MR. JOSH LUIS (editor)</p>
             </div>
@@ -287,7 +286,7 @@
           
             <div class="testi-profile">
               <div class="profile-img ">
-                <!--image--><img src="images/testi3.jpeg">
+                <!--image-->
               </div>
               <p>MR. RAHUL MEHRA (designer)</p>
             </div>
