@@ -97,10 +97,10 @@
      </div>
   
     
-    <div id="linkedin" class="col-start-1 col-end-1">
-      <p>Linkedin</p>
+     <div id="linkedin" class="col-start-1 col-end-1">
+     <a herf="https://www.linkedin.com/in/ishan-mehra-4a8230288/"><p>Linkedin</p> </a>
       <img src="images/linkedin-logo.svg" alt="linkedin-logo">
-
+     
     </div>
   </section>
 
