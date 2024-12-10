@@ -260,7 +260,7 @@
           </div>
           <div class="testi-profile">
             <div class="profile-img">
-              <!--image-->
+              <img src="images/testi1.jpeg">
             </div>
             
             <p>MS. RIYA MEHRA (developer)</p>
@@ -274,7 +274,7 @@
           
             <div class="testi-profile">
               <div class="profile-img ">
-                <!--image-->
+              <img src="images/testi2.jpeg">
               </div>
               <p>MR. JOSH LUIS (editor)</p>
             </div>
@@ -286,7 +286,7 @@
           
             <div class="testi-profile">
               <div class="profile-img ">
-                <!--image-->
+              <img src="images/testi3.jpeg">
               </div>
               <p>MR. RAHUL MEHRA (designer)</p>
             </div>

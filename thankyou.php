@@ -13,6 +13,15 @@
    margin: 20px 40px;
 
  }
+
+ button{
+   
+   width: 150px;
+   height: 30px;
+   border-radius: 10px;
+   border: 2px solid white;
+   margin: 0 30%;
+ }
 </style>
 
 <body>
@@ -21,6 +30,10 @@
 
 <h1 class="contact-title">THANK YOU</h1>
 <p>Thanks for contacting me! I'll get back to you as soon as I can.</p>
+
+
+
+
 
 </section>
 
